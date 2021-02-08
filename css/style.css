@@ -1,3 +1,55 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+
+.header_top{
+  height: 70px;
+  line-height: 70px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.logo img{
+  height: 18px;
+}
+
+.list-inline{
+  margin-bottom: 0;
+}
+
+.main-nav, .secondary-nav{
+  display: inline-block;
+}
+
+.main-nav a{
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+  margin: auto 15px;
+}
+
+.secondary-nav{
+}
+
+.lang{
+  border: none;
+  background-color: #fff;
+  border-left: 1px solid #9b9b9b;
+  border-right: 1px solid #9b9b9b;
+  line-height: normal;
+  margin: auto 5px auto 30px;
+}
+
+.btn_primary{
+  background-color: black;
+  color: white;
+  border-radius: 0;
+  font-weight: 600;
+  padding: 8px 24px;
+}
+
+.btn_mobile{
+  background-color: transparent;
+  font-size: 24px;
+  outline: none;
+}
