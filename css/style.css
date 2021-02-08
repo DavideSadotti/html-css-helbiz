@@ -16,7 +16,7 @@ body{
 }
 
 .logo img{
-  height: 18px;
+  height: 15px;
 }
 
 .list-inline{
@@ -59,7 +59,7 @@ body{
 
 /* BANNER HERO/JUMBOTRON */
 .hero{
-  margin-top: 70px;
+  margin: 70px auto;
   text-align: center;
 }
 
@@ -91,4 +91,108 @@ body{
 
 .hero img{
   width: 100%;
+}
+
+/* SEZIONE PRODOTTI PRINCIPALI */
+.bg_grey{
+  background-color: #fafafa;
+}
+
+.model{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 32px;
+}
+
+.model p{
+  font-size: 20px;
+  margin: 30px auto;
+}
+
+.model a{
+  font-size: 20px;
+}
+
+.name_model img{
+  height: 20px;
+}
+
+.img_model img{
+  margin: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .model{
+
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .model{
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .model{
+    height: 630px;
+  }
+
+  .name_model{
+    padding: 0 25px 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .model{
+    height: 660px;
+  }
+}
+
+/* SEZIONE BANNER OLD-MAN */
+.banner{
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  position: absolute;
+}
+
+.container_small{
+  width: 900px;
+  margin: auto;
+  padding-top: 150px;
+}
+
+.box{
+  display: inline-block;
+  width: calc(100% / 3);
+  height: 200px;
+  position: relative;
+  vertical-align: bottom;
+}
+
+.box div{
+  padding-top: 100px;
+}
+
+.box-1 h2{
+  font-size: 32px;
+  font-weight: 600;
+  color: black;
+}
+
+.box-1{
+  right: calc(100% / 3);
+}
+
+.box-2{
+  left: calc(100% / 3);
+  height: 500px;
+}
+
+.box-3 h3{
+  color: black;
+  font-weight: 600;
 }
