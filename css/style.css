@@ -7,6 +7,12 @@ body{
   line-height: 70px;
   font-weight: 600;
   font-size: 12px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
 }
 
 .logo img{
@@ -26,9 +32,6 @@ body{
   color: #000;
   text-decoration: none;
   margin: auto 15px;
-}
-
-.secondary-nav{
 }
 
 .lang{
@@ -52,4 +55,40 @@ body{
   background-color: transparent;
   font-size: 24px;
   outline: none;
+}
+
+/* BANNER HERO/JUMBOTRON */
+.hero{
+  margin-top: 70px;
+  text-align: center;
+}
+
+.hero h1{
+  font-weight: 700;
+  color: #000;
+}
+
+@media screen and (max-width: 599px) {
+  .hero h1{
+    font-size: 55px;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .hero h1{
+    font-size: 80px;
+    padding-top: 70px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .hero h1{
+    font-size: 100px;
+    padding-top: 100px;
+  }
+}
+
+.hero img{
+  width: 100%;
 }
