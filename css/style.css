@@ -1,5 +1,6 @@
 body{
   font-family: 'Open Sans', sans-serif;
+  color: black;
 }
 
 .header_top{
@@ -57,6 +58,7 @@ body{
   outline: none;
 }
 
+
 /* BANNER HERO/JUMBOTRON */
 .hero{
   margin: 70px auto;
@@ -93,6 +95,7 @@ body{
   width: 100%;
 }
 
+
 /* SEZIONE PRODOTTI PRINCIPALI */
 .bg_grey{
   background-color: #fafafa;
@@ -123,12 +126,6 @@ body{
 
 @media screen and (max-width: 991px) {
   .model{
-
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .model{
     margin-bottom: 50px;
   }
 }
@@ -154,45 +151,102 @@ body{
   background-image: url(../img/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
   width: 100%;
   position: absolute;
 }
 
 .container_small{
-  width: 900px;
   margin: auto;
   padding-top: 150px;
+  margin-top: 100px;
 }
 
 .box{
-  display: inline-block;
-  width: calc(100% / 3);
-  height: 200px;
   position: relative;
-  vertical-align: bottom;
-}
-
-.box div{
-  padding-top: 100px;
 }
 
 .box-1 h2{
-  font-size: 32px;
-  font-weight: 600;
-  color: black;
-}
-
-.box-1{
-  right: calc(100% / 3);
-}
-
-.box-2{
-  left: calc(100% / 3);
-  height: 500px;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .box-3 h3{
-  color: black;
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.box-3 p{
+  font-size: 18px;
+}
+
+@media screen and (max-width: 767px){
+  .box-2{
+    text-align: center;
+  }
+
+  .box-2 img{
+    width: 250px;
+  }
+
+  .box-1, .box-3{
+    padding-left: 30px;
+  }
+
+  .box-3 h3{
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .container_small{
+    width: 700px;
+  }
+
+  .box{
+    display: inline-block;
+    width: calc(100% / 3);
+    height: 200px;
+    vertical-align: bottom;
+  }
+
+  .box-1{
+    right: calc(100% / 3);
+  }
+
+  .box-2{
+    left: calc(100% / 3);
+    height: 500px;
+    padding: 15px;
+  }
+
+  .box-2 img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner{
+    height: 400px;
+    background-position-x: -190px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .banner{
+    height: 500px;
+    background-position-x: -170px;
+  }
+
+  .container_small{
+    width: 900px;
+  }
+
+  .box div{
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .banner{
+    background-position-x: -100px;
+  }
 }
