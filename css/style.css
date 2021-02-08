@@ -112,7 +112,7 @@ body{
   margin: 30px auto;
 }
 
-.model a{
+.saperne-di-piu{
   font-size: 20px;
 }
 
@@ -249,4 +249,143 @@ body{
   .banner{
     background-position-x: -100px;
   }
+}
+
+
+/* SEZIONE NEWS */
+.news{
+  margin-top: 100px;
+}
+
+.orizontal-box{
+  background-color: #fafafa;
+}
+
+.box-skip-scooter, .box-mimoto{
+  height: 600px;
+}
+
+.box-skip-scooter{
+  margin: 15px 0;
+  padding-left: 0;
+}
+
+.box-mimoto{
+  margin: 15px 0;
+  padding-right: 0;
+}
+
+.skip-scooter{
+  height: 100%;
+  background-image: radial-gradient(circle at 50% 50%,#5ad2ff,#40b6e2 122%);
+}
+
+.store{
+  padding-top: 50px
+}
+
+.store img{
+  height: 20px;
+}
+
+.store h2{
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.store p{
+  font-size: 20px;
+  margin: 30px auto;
+}
+
+.carpisa-go {
+  text-align: center;
+}
+
+.carpisa-go img{
+  width: 100%;
+  max-width: 500px;
+}
+
+.news .saperne-di-piu{
+  color: black;
+  text-decoration: none;
+}
+
+.mimoto{
+  height: 100%;
+  background-color: #ffd30e;
+}
+
+.skip-scooter h2, .mimoto h2{
+  text-align: center;
+  padding: 30px;
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.skip-scooter img, .mimoto img{
+  width: 100%
+}
+
+.box-scooter-banner, .box-city{
+  height: 500px;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.box-city{
+  padding-left: 15px;
+  height: 100%;
+}
+
+.scooter-banner{
+  background-image: url(../img/scooter-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.city{
+  background-image: url(../img/city.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  color: white;
+
+}
+
+.box-iphone-bg{
+  margin-top: 40px;
+}
+
+.box-iphone-bg > div{
+  text-align: center;
+  color: white;
+  background: linear-gradient(#41566a,#252f38) 50% no-repeat;
+  padding-right: 15px;
+}
+
+.box-iphone-bg h2, .city h2{
+  padding: 30px 0;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.box-iphone-bg a, .city a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.box-iphone-bg > div > div{
+  margin-bottom: 50px;
+}
+
+.box-iphone-bg img{
+  display: block;
+  margin: auto;
 }
